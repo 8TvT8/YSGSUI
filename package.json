@@ -1,7 +1,7 @@
 {
   "name": "ysgsui",
   "version": "0.0.1",
-  "description": "意为YSGS，实则是没名取了",
+  "description": "意为YSGS,实则是没名取了",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
