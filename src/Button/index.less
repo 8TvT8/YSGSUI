@@ -1,0 +1,98 @@
+.ysgs-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.3s;
+  outline: none;
+  user-select: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.ysgs-button-primary {
+  background-color: #1890ff;
+  color: #fff;
+  border-color: #1890ff;
+
+  &:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+
+  &:active {
+    background-color: #096dd9;
+    border-color: #096dd9;
+  }
+}
+
+.ysgs-button-default {
+  background-color: #fff;
+  color: #000;
+  border-color: #d9d9d9;
+
+  &:hover {
+    color: #40a9ff;
+    border-color: #40a9ff;
+  }
+
+  &:active {
+    color: #096dd9;
+    border-color: #096dd9;
+  }
+}
+
+.ysgs-button-danger {
+  background-color: #ff4d4f;
+  color: #fff;
+  border-color: #ff4d4f;
+
+  &:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+
+  &:active {
+    background-color: #d9363e;
+    border-color: #d9363e;
+  }
+}
+
+.ysgs-button-small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.ysgs-button-medium {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.ysgs-button-large {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.ysgs-button-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
