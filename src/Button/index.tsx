@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.less';
+import './index.scss';
 
 export interface ButtonProps {
   type?: 'primary' | 'default' | 'danger';
